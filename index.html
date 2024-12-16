@@ -1,0 +1,86 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>index</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <style>
+  html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+}
+a{
+  text-decoration:none;
+  color:blue;
+}
+.container{
+  display:flex;
+}
+.column{
+  flex-direction:column;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+}
+nav a:hover{
+  background-color:red;
+  color:blue;
+  transition:2s;
+}
+#banner{
+  align-items: center;  
+  background-color:yellow;
+  color:red;
+  padding:20px;
+}
+#body{
+  padding:50px;
+}
+
+
+#footer{
+  background-color:yellow;
+  color:red;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+}
+
+
+  </style>
+  <body>
+    <script src="script.js"></script>
+
+    <nav class="container">
+      <a href="index.html">Home</a>
+      <a href="layout1.html">Food</a>
+      <a href="layout2.html">Culture</a>
+    </nav>
+
+    <div id="banner" class="container column">
+      <h1>Colombia</h1>
+      <p>everything about Colombia!</p>
+    </div>
+
+    <div id="main" class="container">
+      <div id="body" class="container column">
+        <img src="colombiaflag.jpg" width="300px" style="margin:0 auto">
+        <p>Colombia is a South American country that formed in 1820 and still exists today. They are the 4 largest economies  in Latin America and their biggest exports are refined petroleum gold coffee and coal.In Colombia today you can see in there music culture there is more of rap and salsa  and cumbia. Colombia also has good pastries and food such as bandejas de paisa cholados Arroz con leche,torta negra,empanada de pollo,arepas.In Colombia there are places that are beautiful such as beaches cities and small towns.</p>
+      </div>
+
+      <div id="photo" class="container column">
+        <img src="colombiacountry.png" width="200px"height="150">
+        <img src="colombiacity.jpg" width="200px"height="150">
+        <img src="colombiamap.jpg" width="200px" height="150">
+      </div>
+    </div>
+
+    <div id="footer" class="container"> By darlin espinal </div>
+    
+  </body>
+</html>

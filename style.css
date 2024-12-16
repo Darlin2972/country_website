@@ -1,0 +1,50 @@
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+}
+a{
+  text-decoration:none;
+  color:blue;
+}
+.container{
+  display:flex;
+}
+.column{
+  flex-direction:column;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:15px;
+}
+nav a:hover{
+  background-color:red;
+  color:blue;
+  transition:2s;
+}
+#banner{
+  align-items: center;  
+  background-color:yellow;
+  color:red;
+  padding:20px;
+}
+#body{
+  padding:50px;
+}
+#links{
+  padding:50px;
+}
+#photo *{
+  border: 1px solid black;
+  margin:5px;
+}
+
+#footer{
+  background-color:yellow;
+  color:red;
+  padding:10px;
+  justify-content: center;
+  align-items:center;
+}
+
